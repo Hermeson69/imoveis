@@ -7,15 +7,16 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
     :root {
-        --primary: #F7F9FC;
+        --primary: #ffff;
         --secundary: #15181c;
         --gray: #7a7a7a;
         --blue: #1da1f2;
         --white: #fff;
+        --black: #0000;
     }
     body {
         background-color: var(--primary);
-        font-family: "Roboto", serif;
+        font-family:"Poppins", sans-serif;
         color: var(--secundary);
         font-size: 1.2rem;
         font-weight: 400;

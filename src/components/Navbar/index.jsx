@@ -1,21 +1,17 @@
 import React, {Fragment} from "react";
-import { Container, Logo, Menu } from "./styles";
+import { Container, Logo, Menu} from "./styles";
 
 const Naavbar = () => {
     return (
         <Container>
         <Logo>
-            <img src="" alt="" />
-            <h3>Logo</h3>
+            <img src="" al  ="" />
+            <h3>Domus</h3>
         </Logo>
         <Menu>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Imoveis</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Avaliação</a></li>
-            </ul>
-        </Menu>
+            <span><a href="">Anuncie no Domus</a></span>
+            <span><a href="">Cadastre-se</a></span>
+        </Menu>     
         </Container>
     )
 }

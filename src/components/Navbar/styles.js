@@ -20,11 +20,35 @@ align-items: center;
 export const Menu = styled.div`
 display: flex;
 align-items: center;
-ul{
-    display: flex;
-    list-style: none;
-    li{
-    margin: 0 15px;
-    }
+font-size: 0.925rem;
+span{
+padding: 5px;
+}
 }
 `
+
+// export const Search = styled.div`
+// display: flex;
+// align-items: center;
+// input[type= "text"]{
+// padding: 7px;
+// border-radius: 10px;
+// border: 0.2px solid #333;
+// width: 250px;
+// margin-left: 20px;    
+// }
+
+// input[type = "button"]{
+// padding: 7px;
+// margin-left: 10px;
+// border-radius: 10px;
+// border: 0.2px solid var(--gray);
+// width: 75px;
+// font-size: .825rem;
+// }
+
+// input[type = "button"]:hover{
+// cursor: pointer;
+// background-color: var(--primary) 
+// }
+// `
