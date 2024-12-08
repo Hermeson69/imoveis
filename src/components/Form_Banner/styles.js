@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 export const Form_banner = styled.div`
 display: flex;
 position: absolute;
@@ -16,7 +15,6 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 width: 28vw;
 }
 `
-
 export const Form_text = styled.div`
 display: block;
 h2{
@@ -39,7 +37,6 @@ export  const LocatedContainer = styled.div`
     border-color: black;
   }
 `
-
 export const LocatedField = styled.div`
 display: column;
     label {
@@ -60,7 +57,6 @@ border: none;
 outline: none;
 }
 `
-
 export const DateContainer = styled.div`
   margin-top: 10px; 
   display: flex;
@@ -72,8 +68,6 @@ export const DateContainer = styled.div`
   border: 1px solid #ccc;
   border-radius: 10px;
 `;
-
-
 export const DateField = styled.div`
   display: flex;
   flex-direction: column;
@@ -100,14 +94,11 @@ export const DateField = styled.div`
     }
   }
 `;
-
 export const Divider = styled.div`
   width: 1px;
   height: 40px;
   background-color: #ccc;
 `;
-
-
 export const PersonContainer = styled.div`
   margin-top: 10px; 
   display: flex;
@@ -119,7 +110,6 @@ export const PersonContainer = styled.div`
   border: 1px solid #ccc;
   border-radius: 10px;
 `
-
 export const PersonFild = styled.div`
   display: flex;
   flex-direction: column;
@@ -144,7 +134,6 @@ export const PersonFild = styled.div`
     width: 100%;
   }
 `;
-
 export const Buttonscreah = styled.div`
 display: block;
 button{
